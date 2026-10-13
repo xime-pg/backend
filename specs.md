@@ -2,7 +2,7 @@
 
 Endpoints
 
-get/users
+get/users?name=test2
 get/users/:id
 
 post/users
