@@ -1,0 +1,24 @@
+
+@host = https://jsonplaceholder.typicode.com
+
+GET {{host}}/users
+
+###
+POST {{host}}/users
+Content-Type: application/json
+{
+    "name": "intro IDS"
+}
+
+###
+PUT {{host}}/users/8
+Content-Type: application/json
+{
+    "username":"Bretids",
+    "email":"Sincero@ITESO.biz"
+}
+
+DELETE {{host}}/users/6
+{
+    
+}

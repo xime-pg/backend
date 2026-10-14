@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title> Document </title>
+    <style>
+        p,
+        .igual-al-elemento {
+            color: darkgoldenrod;
+            background-color: rgb(190, 240, 199);
+            font-style: italic;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 5px dashed rgb(18, 18, 18);
+            padding: 12px;
+        }
+
+        p:hover {
+            background-color: rgba(143, 139, 139, 0.42);
+            border-radius: 20px;
+            box-shadow: 0 0 25px greenyellow;
+        }
+
+        #diferente {
+            color: white;
+            background-color: darkcyan;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+            text-align: center;
+            border: 5px solid navy;
+        }
+
+        .explicacion-clase,
+        .explicacion-elemento {
+            color: darkgreen;
+            background-color: lightgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        #explicacion-id {
+            color: white;
+            background-color: firebrick;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            padding: 8px;
+        }
+
+        p::first-letter{
+            font-size: 3em;
+        }
+
+        h1 {
+        font-size: 3em;
+        text-shadow: 5px 5px 10px red;
+        font-family: Georgia, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> Aprendiendo CSS</h1>
+    <p class="igual-al-elemento">Selectores basicos</p>
+
+    <ul>
+    <li class="explicacion-clase">clase = se usa un punto .nombreclase</li>
+    <li id="explicacion-id">id = se usa gato #nombreid</li>
+    <li class="explicacion-elemento">elemento = se pone solo el nombre del elemento</li>
+    </ul>
+
+    <p class="igual-al-elemento">es posible cambiar el estilo con css</p>
+    <p> mi hobbie es jugar basket</p>
+    <p id="diferente">Este parrafo usa un id diferente</p>
+</body>
+</html>
